@@ -13,21 +13,23 @@ Version:1.1.0
  01.home css
  02.category css
 */
+
+
 /* ========      Google Fonts      ========*/
 
-@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@200;300;400;500;600;700;800&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
 
 /* ============   Template Default Css   ============ */
-body{
-    font-family: 'Nunito', sans-serif;
+
+body {
+    font-family: 'Poppins', sans-serif;
 }
 
 a:focus,
 select:focus,
-input:focus{
+input:focus {
     text-decoration: none !important;
-    outline:none !important;
+    outline: none !important;
     box-shadow: none !important;
 }
 
@@ -39,20 +41,22 @@ h5,
 h6 {
     font-weight: 800;
 }
-li{
+
+li {
     list-style: none;
 }
 
-a{
+a {
     color: inherit;
 }
 
-.form-control:focus{
+.form-control:focus {
     outline: 0;
     box-shadow: none;
 }
+
 ::placeholder {
-    color:#ddd;
+    color: #ddd;
 }
 
 [type='color']:focus,
@@ -70,13 +74,68 @@ a{
 [type='url']:focus,
 [type='link']:focus,
 input:not([type])::focus,
-textarea:focus{
-   border-color: #ddd;
-   -webkit-box-shadow: none !important;
-   box-shadow: none !important;
+textarea:focus {
+    border-color: #ddd;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+}
 
+button:focus {
+    outline: none !important;
+    border: none !important;
 }
-button:focus{
-    outline:none !important;
-    border:none !important;
+
+
+/*=====Hire me start======*/
+
+.hire-me {
+    background-image: url(../img/top-banner.png);
+    background-repeat: no-repeat
 }
+
+.section-left {
+    margin-top: 110px;
+}
+
+.section-left span {
+    color: #F9AB00;
+}
+
+.section-left h1 {
+    font-size: 45px;
+    padding: 0 0 50px 0;
+    text-transform: capitalize;
+}
+
+.section-left h3 {
+    font-weight: 600;
+    text-transform: capitalize;
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.section-left p {
+    color: #696969;
+    text-transform: capitalize;
+}
+
+.img-right img {
+    width: 100%;
+}
+
+.btn-hireme {
+    font-weight: 800;
+    color: #fff;
+    text-transform: uppercase;
+    text-decoration: none;
+    background-color: orange;
+    padding: 10px 40px;
+    border-radius: 10px;
+}
+
+.btn-hireme:hover {
+    color: #fff;
+}
+
+
+/*=====Hire me end======*/
