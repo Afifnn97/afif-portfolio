@@ -1,4 +1,4 @@
-/* ================
+        /* ================
 Template Name:
 Template URI:
 Description:
@@ -6,143 +6,186 @@ Author:
 Author URL:
 Version:1.1.0
 ================= */
-
-
-/*
+        /*
  CSS index 
  01.home css
  02.category css
 */
-
-
-/* ========      Google Fonts      ========*/
-
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
-
-/* ============   Template Default Css   ============ */
-
-body {
-    font-family: 'Poppins', sans-serif;
-}
-
-a:focus,
-select:focus,
-input:focus {
-    text-decoration: none !important;
-    outline: none !important;
-    box-shadow: none !important;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-    font-weight: 800;
-}
-
-li {
-    list-style: none;
-}
-
-a {
-    color: inherit;
-}
-
-.form-control:focus {
-    outline: 0;
-    box-shadow: none;
-}
-
-::placeholder {
-    color: #ddd;
-}
-
-[type='color']:focus,
-[type='date']:focus,
-[type='datetime']:focus,
-[type='datetime-local']:focus,
-[type='email']:focus,
-[type='month']:focus,
-[type='number']:focus,
-[type='password']:focus,
-[type='search']:focus,
-[type='tel']:focus,
-[type='text']:focus,
-[type='time']:focus,
-[type='url']:focus,
-[type='link']:focus,
-input:not([type])::focus,
-textarea:focus {
-    border-color: #ddd;
-    -webkit-box-shadow: none !important;
-    box-shadow: none !important;
-}
-
-button:focus {
-    outline: none !important;
-    border: none !important;
-}
-
-
-/*=====Hire me start======*/
-
-.hire-me {
-    background-image: url(../img/top-banner.png);
-    background-repeat: no-repeat
-}
-
-.section-left {
-    margin-top: 110px;
-}
-
-.section-left span {
-    color: #F9AB00;
-}
-
-.section-left h1 {
-    font-size: 45px;
-    padding: 0 0 50px 0;
-    text-transform: capitalize;
-}
-
-.section-left h3 {
-    font-weight: 600;
-    text-transform: capitalize;
-    font-size: 20px;
-    padding-bottom: 10px;
-}
-
-.section-left p {
-    color: #696969;
-    text-transform: capitalize;
-}
-
-.img-right img {
-    width: 100%;
-}
-
-.btn-hireme {
-    font-weight: 800;
-    color: #fff;
-    text-transform: uppercase;
-    text-decoration: none;
-    background-color: orange;
-    padding: 10px 40px;
-    border-radius: 10px;
-}
-
-.btn-hireme:hover {
-    color: #fff;
-}
-
-
-/*=====Hire me end======*/
-
-.dream-big {
-    margin: 120px 0;
-    background-image: url(../img/dream-bg.png);
-    background-repeat: no-repeat;
-    background-position: right;
-}
+        /* ========      Google Fonts      ========*/
+        
+        @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap');
+        /* ============   Template Default Css   ============ */
+        
+        body {
+            font-family: 'Poppins', sans-serif;
+        }
+        
+        a:focus,
+        select:focus,
+        input:focus {
+            text-decoration: none !important;
+            outline: none !important;
+            box-shadow: none !important;
+        }
+        
+        h1,
+        h2,
+        h3,
+        h4,
+        h5,
+        h6 {
+            font-weight: 800;
+        }
+        
+        li {
+            list-style: none;
+        }
+        
+        a {
+            color: inherit;
+        }
+        
+        .form-control:focus {
+            outline: 0;
+            box-shadow: none;
+        }
+        
+         ::placeholder {
+            color: #ddd;
+        }
+        
+        [type='color']:focus,
+        [type='date']:focus,
+        [type='datetime']:focus,
+        [type='datetime-local']:focus,
+        [type='email']:focus,
+        [type='month']:focus,
+        [type='number']:focus,
+        [type='password']:focus,
+        [type='search']:focus,
+        [type='tel']:focus,
+        [type='text']:focus,
+        [type='time']:focus,
+        [type='url']:focus,
+        [type='link']:focus,
+        input:not([type])::focus,
+        textarea:focus {
+            border-color: #ddd;
+            -webkit-box-shadow: none !important;
+            box-shadow: none !important;
+        }
+        
+        button:focus {
+            outline: none !important;
+            border: none !important;
+        }
+        /*=====Hire me start======*/
+        
+        .hire-me {
+            background-image: url(../img/top-banner.png);
+            background-repeat: no-repeat
+        }
+        
+        .section-left {
+            margin-top: 110px;
+        }
+        
+        .section-left span {
+            color: #F9AB00;
+        }
+        
+        .section-left h1 {
+            font-size: 45px;
+            padding: 0 0 50px 0;
+            text-transform: capitalize;
+        }
+        
+        .section-left h3 {
+            font-weight: 600;
+            text-transform: capitalize;
+            font-size: 20px;
+            padding-bottom: 10px;
+        }
+        
+        .section-left p {
+            color: #696969;
+            text-transform: capitalize;
+        }
+        
+        .img-right img {
+            width: 100%;
+        }
+        
+        .btn-hireme {
+            font-weight: 800;
+            color: #fff;
+            text-transform: uppercase;
+            text-decoration: none;
+            background-color: orange;
+            padding: 10px 40px;
+            border-radius: 10px;
+        }
+        
+        .btn-hireme:hover {
+            color: #fff;
+        }
+        /*=====Hire me end======*/
+        
+        .dream-big {
+            margin: 120px 0;
+            background-image: url(../img/dream-bg.png);
+            background-repeat: no-repeat;
+            background-position: right;
+        }
+        /*=====Experience start======*/
+        
+        .Experience-area {
+            background-image: url(../img/exp-bg.png);
+            background-repeat: no-repeat;
+            background-position: left;
+        }
+        
+        .about-Experience {
+            margin-top: 50px;
+        }
+        
+        .about-Experience h2 {
+            font-size: 40px;
+            font-weight: 600;
+            text-transform: capitalize;
+        }
+        
+        .about-Experience h3 {
+            font-size: 20px;
+            padding: 20px 0 10px 0;
+            color: #F9AB00;
+        }
+        
+        .about-Experience p {
+            color: #696969;
+        }
+        
+        .Experience-item {
+            padding-left: 60px;
+            border-radius: 0px 10px 10px 0px;
+            -webkit-box-shadow: 1px 4px 18px -2px rgba(0, 0, 0, 0.51);
+            box-shadow: 1px 4px 18px -2px rgba(0, 0, 0, 0.51);
+        }
+        
+        #Experience-item-1 {
+            border-left: 7px solid #F36E59;
+        }
+        
+        #Experience-item-2 {
+            border-left: 7px solid blue;
+        }
+        /*=====Experience end======*/
+        /*========== footer start ===========*/
+        
+        .footer-area p {
+            margin-top: 120px;
+            text-align: center;
+            color: #696969;
+            text-transform: capitalize;
+        }
+        /*========== footer end ===========*/
