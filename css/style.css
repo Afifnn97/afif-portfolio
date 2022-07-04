@@ -139,3 +139,10 @@ button:focus {
 
 
 /*=====Hire me end======*/
+
+.dream-big {
+    margin: 120px 0;
+    background-image: url(../img/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+}
